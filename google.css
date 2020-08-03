@@ -1,0 +1,164 @@
+*{
+    margin:0;
+    padding: 0;
+}
+ul { 
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+    line-height: 12px;
+}
+
+/* :hover means pseudo class
+: inside a css selector always means psuedo-class or pseudo-element
+
+it increases the selector specificity too*/
+
+li:hover{
+    cursor: pointer;
+    border-bottom: 1px gray solid;
+}
+#nav{
+    margin-top:20px;
+    margin-left: 26px;
+}
+#shift-right{
+    display:inline-block;
+    position: fixed;
+    right: 40px
+}
+
+#blue-m{
+    height: 26px;
+    width:26px;
+    border-radius: 50%;
+    border: none;
+}
+
+#main-google{
+    /* moves our text to center
+    as div has width of almost entire page*/
+    text-align: center;
+
+}
+
+#google-h1{
+    font-size: 90px;
+    position: relative;
+    top: 125px;
+    font-family: sans-serif;
+    
+}
+
+#input-bar{
+    width:500px;
+    height: 35px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    position: relative;
+    top: 145px;
+    padding-left: 15px;
+    font-size: 15px;
+    outline: none; 
+
+
+}
+
+#input-bar:hover{
+
+   box-shadow: rgb(212, 211, 211) 0px 2px 6px;
+
+}
+
+#input-bar:focus{
+    box-shadow: rgb(212, 211, 211) 0px 2px 6px;
+}
+#button-container{
+    position: relative;
+    top: 170px;
+}
+
+#footer{
+    position:fixed;
+    bottom:0px;
+    width:100%;
+    color:rgb(87, 85, 85);
+    background-color: rgb(238, 238, 238);
+    
+    
+
+}
+#india-footer{
+
+    position:fixed;
+    bottom: 32px ;
+    padding-left: 32px;
+    font-size: 15.8px;
+    margin-bottom:4px;
+    padding-top: 12px;
+    height:28px;
+    background-color: rgb(238, 238, 238);
+    width: 100%;
+    border-top:lightgray solid 1px;
+    border-bottom: lightgray solid 1px;;
+
+}
+
+#footer-right-side{
+    position:fixed;
+    right:20px;
+    display: inline-block;
+
+}
+
+#ul-footer{
+    
+    margin-left:32px;
+    font-size: 15.8px;
+    margin-bottom:0px;
+    height:30px;
+    padding-bottom:-16px;
+    margin-top: 0px;
+    padding-top: 20px;
+    
+}
+.separate-nav-items{
+
+    margin-left: 20px
+}
+
+.google-letters{
+    margin-left:-29px
+}
+
+.separate-footer-items{
+    margin-left: 20px;
+}
+button{
+
+    height: 34px;
+    width: 140px;
+    border:none;
+    background-color:rgb(243, 242, 242);
+    font-size: 16px;
+    color:rgb(109, 109, 109);
+    border-radius:4px;
+    margin:2px;
+    letter-spacing: 0.2px;
+    outline: none;
+}
+
+button:hover{
+
+    box-shadow: rgb(187, 186, 186) 0px 3px 5px;
+    cursor: pointer;
+    position: relative;
+    top:-3.5px;
+
+}
+
+button:active{
+    top:0px;
+    box-shadow: gray 0px 0.5px 2px;
+}
